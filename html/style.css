@@ -1,11 +1,31 @@
 body {
+    background-color: orange;
     font-size: 14px;
     color: navy;
 }
 
+p , ol, ul, form, table{
+    font-size: 16px;
+}
+
 h1 {
-    color: #0e62e0;
-    background-color: white;
+    font-size: 2em;
+    color: #071061;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 .link {
