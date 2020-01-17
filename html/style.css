@@ -61,6 +61,11 @@ a:visited {
   color: purple;
 }
 
+a:active {
+
+  color: red;
+}
+
 .sub h2 {
   color: black;
   background-color: #fcff4d81;
