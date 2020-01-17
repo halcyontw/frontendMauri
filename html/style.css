@@ -14,11 +14,12 @@ p {
 img {
   border-style: dashed;
   border-width: 2px;
-  border-color: #ccc;
+  border-color: #ccc; 
 }
 
-a {
-  text-decoration: none;
+input:focus , textarea:focus {
+
+  background: #eee;
 }
 
 strong {
@@ -47,6 +48,13 @@ a:visited {
 
 a:link {
   color: blue;
+}
+
+a:hover {
+
+  text-decoration: none;
+  color: blue;
+  background-color: yellow;  
 }
 
 a:visited {
