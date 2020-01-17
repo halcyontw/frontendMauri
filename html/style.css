@@ -9,10 +9,10 @@ body {
 
 p {
     line-height: 21px;
+    padding-left: 16px;
 }
 
 h1 {
-
     color: #ffffcc;
     background-color: #900;
     font-size: 2em;
@@ -25,22 +25,17 @@ h1 {
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
     border-bottom-color: #c00;
-    
+
 }
 
 h2 {
 
-    color: white;
-    background-color: #009900;
+    color: black;
+    background-color: #fcff4d81;
     font-size: 1.5em;
     margin: 0;
     padding: 2px;
     padding-left: 14px;
-}
-
-h3 {
-    color: #999;
-    font-size: 1.25em;
 }
 
 img {
@@ -64,7 +59,13 @@ li {
 }
 
 table {
-    background-color: #ccc;
+    margin: 14px;
+}
+
+form {
+
+    margin-left: 16px;
+
 }
 
 .link {
