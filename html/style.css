@@ -1,4 +1,5 @@
 body {
+    font-family: Amino, 'Courier New', Courier, monospace;
     background-color: orange;
     font-size: 14px;
     color: navy;
@@ -10,7 +11,7 @@ p , ol, ul, form, table{
 
 h1 {
     font-size: 2em;
-    color: #071061;
+    color: #001aff;
     text-align: center;
 }
 
