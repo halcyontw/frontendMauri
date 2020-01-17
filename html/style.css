@@ -1,73 +1,78 @@
-
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    color: black;
-    background-color: #ffffcc;
-    margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: #ffffcc;
+  margin: 20px;
 }
 
 p {
-    line-height: 21px;
-    padding-left: 16px;
-}
-
-h1 {
-    color: #ffffcc;
-    background-color: #900;
-    font-size: 2em;
-    margin: 0;
-    margin-bottom: 7px;
-    padding: 4px;
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 0.25em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #c00;
-
-}
-
-h2 {
-
-    color: black;
-    background-color: #fcff4d81;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 2px;
-    padding-left: 14px;
+  line-height: 21px;
+  padding-left: 16px;
 }
 
 img {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #ccc;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 strong {
-    font-style: italic;
-    text-transform: uppercase;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 li {
-    color: #900;
-    font-style: italic;
+  color: #900;
+  font-style: italic;
 }
 
 table {
-    margin: 14px;
+  margin: 14px;
 }
 
 form {
-
-    margin-left: 16px;
-
+  margin-left: 16px;
 }
 
-.link {
-    text-decoration: underline;
+a,
+a:link,
+a:visited {
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.sub h2 {
+  color: black;
+  background-color: #fcff4d81;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 2px;
+  padding-left: 14px;
+}
+
+#maintitle h1 {
+  color: #ffffcc;
+  background-color: #900;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 4px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.25em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #c00;
 }
