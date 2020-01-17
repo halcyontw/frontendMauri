@@ -1,0 +1,13 @@
+body {
+    font-size: 14px;
+    color: navy;
+}
+
+h1 {
+    color: #0e62e0;
+    background-color: white;
+}
+
+.link {
+    text-decoration: underline;
+}
