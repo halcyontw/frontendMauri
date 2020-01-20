@@ -9,12 +9,11 @@ body {
 p {
   line-height: 21px;
   padding-left: 16px;
+  border: 1px rgb(230, 235, 160) solid;
 }
 
 img {
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #ccc; 
+  border: 2px dashed #ccc;
 }
 
 input:focus , textarea:focus {
@@ -85,7 +84,23 @@ a:active {
   font-style: italic;
   text-align: center;
   letter-spacing: 0.25em;
+  border-bottom: 0.5em #c00 solid;
+  
+  /* i
+  is a simplification of: 
   border-bottom-style: solid;
   border-bottom-width: 0.5em;
   border-bottom-color: #c00;
+
+  */ 
+
+  /*  p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+} */
+
 }
